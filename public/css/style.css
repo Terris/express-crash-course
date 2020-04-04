@@ -1,0 +1,39 @@
+/* Reset
+------------------------------------ */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+html,
+input,
+textarea {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+img {
+  width: 100%;
+}
+svg {
+  max-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+figure {
+  padding: 1rem 20px;
+}
